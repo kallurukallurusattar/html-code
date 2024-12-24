@@ -1,0 +1,72 @@
+body {
+    background-color: yellowgreen;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+
+
+.calender {
+    text-align: center;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 370px;
+    overflow: hidden;
+    box-shadow: 0 4px 80px #1e742f;
+    border: 3px solid #ccc;
+    border-color: darkgoldenrod;
+
+}
+
+
+.calender-header {
+    background-color: pink;
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+table{
+    width: 100%;
+    border-collapse: initial;
+}
+
+th, td {
+    padding: 6px;
+    text-align: center;
+    border:2px solid #ddd;
+
+}
+
+th {
+    background-color: #f0f0f0;
+
+}
+
+td:hover{
+    background-color: #f0f0f0;
+}
+
+th:hover{
+    background-color: rgb(189, 107, 108);
+    box-sizing: border-box;
+}
+
+
+
+table:hover{
+    background-color: yellow;
+    
+}
+
+.calender-header:hover{
+    background-color: blueviolet;
+
+}
+
