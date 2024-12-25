@@ -1,72 +1,62 @@
 body {
-    background-color: yellowgreen;
-    margin: 0px;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #ffffff;
     align-items: center;
     justify-content: center;
-    font-size: larger;
-    display: flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-.calender {
-    text-align: center;
-    border-radius: 30px;
-    background-color: #fff;
-    width: 370px;
-    overflow: hidden;
-    box-shadow: 0 4px 80px #1e742f;
-    border: 3px solid #ccc;
-    border-color: darkgoldenrod;
-
-}
-
-
-.calender-header {
-    background-color: pink;
-    color: black;
-    font-size: 18px;
-    padding: 20px;
-    font-weight: bold;
+.date-form {
     font-style: normal;
-}
-
-table{
-    width: 100%;
-    border-collapse: initial;
-}
-
-th, td {
-    padding: 6px;
-    text-align: center;
-    border:2px solid #ddd;
-
-}
-
-th {
-    background-color: #f0f0f0;
-
-}
-
-td:hover{
-    background-color: #f0f0f0;
-}
-
-th:hover{
-    background-color: rgb(189, 107, 108);
-    box-sizing: border-box;
-}
-
-
-
-table:hover{
     background-color: yellow;
-    
+    color: orangered;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+
 }
 
-.calender-header:hover{
-    background-color: blueviolet;
-
+.lable{
+    font-size: 1.1em;
+    color: #333333;
 }
 
+input[type="date"]{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #555;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="date"]:focus {
+    border-color: #66afe9;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color:#ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.date-form:hover {
+    color:cadetblue;
+}
